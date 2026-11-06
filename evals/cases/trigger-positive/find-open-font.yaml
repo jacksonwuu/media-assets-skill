@@ -1,0 +1,5 @@
+name: find-open-font
+type: trigger-positive
+prompt: "Suggest an open-license serif font for a book cover design."
+expectations:
+  skill_triggered: true

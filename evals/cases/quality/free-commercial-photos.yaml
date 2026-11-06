@@ -1,0 +1,20 @@
+name: free-commercial-photos
+type: quality
+prompt: "Find 3 free-for-commercial-use photos of a modern office interior, high resolution, landscape orientation."
+expectations:
+  criteria:
+    - id: skill-triggered
+      description: "The media-assets skill is used"
+      required: true
+    - id: count-matches
+      description: "Exactly 3 candidates are returned"
+      required: true
+    - id: license-verified
+      description: "Each candidate states a license compatible with commercial use"
+      required: true
+    - id: source-attributed
+      description: "Each candidate includes source name and direct URL"
+      required: true
+    - id: technical-check
+      description: "Resolution and orientation are stated or confirmed"
+      required: true

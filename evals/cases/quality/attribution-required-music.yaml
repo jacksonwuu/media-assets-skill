@@ -1,0 +1,17 @@
+name: attribution-required-music
+type: quality
+prompt: "Find one instrumental track for a YouTube video intro, needs to be under 60 seconds or easily trimmable."
+expectations:
+  criteria:
+    - id: skill-triggered
+      description: "The media-assets skill is used"
+      required: true
+    - id: license-verified
+      description: "License is stated; attribution requirement is explicit if applicable"
+      required: true
+    - id: duration-noted
+      description: "Track duration is mentioned"
+      required: true
+    - id: source-attributed
+      description: "Source URL and creator name are present"
+      required: true

@@ -1,0 +1,17 @@
+name: organize-existing-downloads
+type: quality
+prompt: "I have a folder of mixed downloads (images, fonts, audio clips). Help me organize them by type."
+expectations:
+  criteria:
+    - id: skill-triggered
+      description: "The media-assets skill is used"
+      required: true
+    - id: organize-script-used
+      description: "organize_downloads.py is invoked or referenced"
+      required: true
+    - id: dry-run-first
+      description: "A dry-run is suggested or performed before moving files"
+      required: true
+    - id: no-data-loss
+      description: "No files are deleted or overwritten without confirmation"
+      required: true

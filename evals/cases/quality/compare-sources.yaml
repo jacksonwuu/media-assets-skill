@@ -1,0 +1,14 @@
+name: compare-sources
+type: quality
+prompt: "I need to pick between Pexels and Unsplash for a commercial project. Which is safer and why?"
+expectations:
+  criteria:
+    - id: skill-triggered
+      description: "The media-assets skill is used"
+      required: true
+    - id: sources-referenced
+      description: "Both platforms' license terms are accurately described"
+      required: true
+    - id: recommendation-clear
+      description: "Gives a clear recommendation with reasoning"
+      required: true

@@ -1,0 +1,14 @@
+name: edge-case-no-results
+type: quality
+prompt: "Find a photo of a purple elephant riding a skateboard at sunset, must be in the public domain."
+expectations:
+  criteria:
+    - id: skill-triggered
+      description: "The media-assets skill is used"
+      required: true
+    - id: honest-no-results
+      description: "Skill does not fabricate a source or license"
+      required: true
+    - id: alternatives-offered
+      description: "Suggests relaxing constraints or a different medium/approach"
+      required: true

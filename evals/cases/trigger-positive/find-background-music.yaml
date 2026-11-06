@@ -1,0 +1,5 @@
+name: find-background-music
+type: trigger-positive
+prompt: "I need some calm background music for a meditation video, CC-BY licensed is fine."
+expectations:
+  skill_triggered: true

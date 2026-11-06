@@ -1,0 +1,5 @@
+name: fix-css-bug
+type: trigger-negative
+prompt: "My CSS button hover state isn't working, can you debug it?"
+expectations:
+  skill_triggered: false

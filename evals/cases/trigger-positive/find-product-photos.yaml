@@ -1,0 +1,5 @@
+name: find-product-photos
+type: trigger-positive
+prompt: "Find me 3 minimalist-style product photos of a ceramic mug on a white background, free for commercial use."
+expectations:
+  skill_triggered: true

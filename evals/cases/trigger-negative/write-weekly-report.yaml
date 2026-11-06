@@ -1,0 +1,5 @@
+name: write-weekly-report
+type: trigger-negative
+prompt: "Help me write my weekly progress report for the design team."
+expectations:
+  skill_triggered: false

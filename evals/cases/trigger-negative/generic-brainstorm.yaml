@@ -1,0 +1,5 @@
+name: generic-brainstorm
+type: trigger-negative
+prompt: "Brainstorm ideas for our next marketing campaign."
+expectations:
+  skill_triggered: false
